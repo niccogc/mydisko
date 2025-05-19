@@ -1,7 +1,7 @@
     {
     disko.devices = {
       disk.primary = {
-        device = /dev/sda;
+        device = "/dev/sda";
         type = "disk";
         content = {
           type = "gpt";
@@ -53,7 +53,7 @@
       };
 
       disk.secondary = {
-        device = /dev/sdb;
+        device = "/dev/sdb";
         type = "disk";
         content = {
           type = "gpt";
